@@ -1,0 +1,89 @@
+:root{
+    --primarycolor: #ff274b;
+    --secondarycolor: #ffbcf7;
+    --lightcolor: #ffffff;
+    --bgcolor1: #171a1c;
+    --bgcolor2: #22282a;
+    --pading: 8%;
+}
+
+* {
+    margin: 0;
+    padding: 0%;
+    outline: 0%;
+    border: 0%;
+    
+}
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: grid;
+    place-items: center;
+    background-color: var(--bgcolor2);
+}
+h1{
+    font-size: 4.56rem;
+    margin: 1.7rem;
+}
+h2{
+    font-size: 2.2rem;
+    letter-spacing: 0.12rem;
+    cursor: pointer;
+}
+h3{
+    font-size: 1.5rem;
+    margin-bottom: 3.5rem;
+}
+h4{
+    font-size: 1.25rem;
+    letter-spacing: 0.12rem;
+    color: var(--secondarycolor);
+}
+h5{
+    font-size: 1.37rem;
+    margin-bottom: 1.4rem;
+    letter-spacing: 2px;
+}
+span{
+    color: var(--primarycolor);
+}
+p{
+    color: var(--secondarycolor);
+    letter-spacing: 1px;
+    line-height: 1.8rem;
+    font-size: 1rem;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    transform: 0.4s;
+    width: 24rem;
+    gap: lrem;
+}
+input,
+select,
+textarea {
+    padding: 1.4rem;
+    background: lightskyblue;
+    border: 3px solid lightslategray;
+}
+textarea {
+    height: 6rem;
+}
+button {
+    width: 8rem;
+    padding: 1.4rem;
+    cursor: pointer;
+    background: lightcyan;
+    color: var(--bgcolor2);
+}
+footer {
+    padding: 2rem var(--pading);
+    background-color: var(--bgcolor2)
+}
+footer .content-footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
